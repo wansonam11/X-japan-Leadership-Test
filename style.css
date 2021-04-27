@@ -1,0 +1,144 @@
+body{
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+/* start */
+.audio{
+    text-align: center;
+}
+
+.main-title{
+    font-size: 25px;
+    color: #7c7c7c;
+}
+
+
+.btn-start{
+    font-size: 30px;
+    color: #ff9300;
+    background-color: #1f1f1f;
+    border: #1f1f1f;
+}
+
+.btn-start, .btn-start:visited, .btn-start:hover, .btn-start:active{
+    color: #ff9300;
+    background-color: #1f1f1f;
+    border: #1f1f1f;;
+}
+
+
+.start-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.updown-slash{
+    width: 160px;
+    margin: 0 auto;
+}
+
+
+/* question */
+.progress-bar{
+    background-color: #ff9300;
+
+}
+
+.question{
+    display: none;
+}
+
+.question-content{
+    font-size: 30px;
+    color: #ff9300;
+}
+
+.pocket{
+
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* answer */
+.btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus{
+    background-color: #1f1f1f;
+    border: #1f1f1f;
+    width: 850px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.btn-answer:hover {
+    background-color: #ff9300 !important;
+    border: #1f1f1f !important;
+    width: 850px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.rectangle{
+    width: 900px;
+    height: 8px;
+    background-color: #383a43;
+    margin: 0 auto;
+}
+
+.mid-rectangle {
+    width: 750px;
+    height: 1px;
+    background-color: #383a43;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* result */
+.result {
+    display: none;
+}
+
+#img{
+    width: 27%;
+    height: 27%;
+    margin: 0 auto;
+}
+
+.result-message{
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 100;
+}
+.result-explain{
+    font-size: 20px;
+    font-weight: normal;
+    color: #ff9300;
+}
+
+.share{
+    margin: 0 auto;
+}
+
+.share-message {
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 100;
+}
